@@ -9,9 +9,30 @@
 
 /* ==== CODE ALONG ==== */
 
+#box1 {
+    scale: 0.7;
+}
 
+#box2 {
+    translate: 90px -10px;
+}
+
+#box3 {
+    rotate: 45deg;
+}
+
+#box4 {
+    transform: skew(30deg, 10deg);
+}
 
 /* ==== CODE SOLO ==== */
+
+#ind_box1 {
+    scale: 1.2;
+     rotate: 50deg;
+     background-color: rgb(255, 213, 235);
+     transform: skew(-0.06turn, 18deg);
+}
 
 /* Apply FOUR CSS transforms in total to make the boxes visually distinct and interesting. You can use scale, translate, rotate, and skew or even combine them. */
 
