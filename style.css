@@ -28,10 +28,41 @@
 /* ==== CODE SOLO ==== */
 
 #ind_box1 {
-    scale: 1.2;
-     rotate: 50deg;
-     background-color: rgb(255, 213, 235);
-     transform: skew(-0.06turn, 18deg);
+background-color: rgb(255, 213, 235);
+scale: 1.2;
+rotate: 50deg;
+transform: skew(-0.06turn, 18deg);
+}
+
+#ind_box1:hover {
+    background-color: rgb(255, 149, 239);
+  color: black;
+  cursor: pointer;
+}
+
+#ind_box2 {
+background-color: rgb(243, 213, 255);
+translate: 90px -10px;
+transform: skew(-0.35turn, 10deg);
+}
+
+#ind_box2:hover {
+    background-color: rgb(225, 149, 255);
+  color: black;
+  cursor: pointer;
+}
+
+#ind_box3 {
+background-color: rgb(213, 239, 255);
+rotate: 3 0.5 2 -45deg;
+scale: 5;
+translate: 400px 150px;
+}
+
+#ind_box3:hover {
+    background-color: rgb(149, 223, 255);
+  color: black;
+  cursor: pointer;
 }
 
 /* Apply FOUR CSS transforms in total to make the boxes visually distinct and interesting. You can use scale, translate, rotate, and skew or even combine them. */
